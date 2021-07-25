@@ -1,0 +1,227 @@
+body
+{
+    background-color: rgb(0, 0, 0);
+}
+
+.site-navbar .site-logo a
+ {
+    color: #ffffff;
+}
+.site-navbar .site-logo a:hover
+ {
+    color: linear-gradient(90deg, #a60000, #ae0000); 
+}
+h3, .h3 
+{
+    color: #ffffff;  
+  }
+
+
+  .btndark{
+    background-color:rgb(99, 150, 243);
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    z-index: 99;
+    padding: 10px;
+
+      }
+ 
+      .btndark:hover
+      {
+        box-shadow: 3px 3px 5px  #006ad5,       
+        -3px -3px 5px  #00a7e4;
+      }
+
+.logo
+{
+    box-shadow:   /* logo shadow */  8px 8px 15px #2700d6, 
+     /* offset */ 
+     /*bottom right */  8px 8px 15px #006ad5, 
+      /* top left */  -8px -8px 15px #00a7e4 ;
+}
+.title
+{
+color: white;
+}
+.sub-title
+{
+    color: whitesmoke;
+
+}
+.fields input
+ {
+    color: rgb(196, 196, 196);
+}
+.username{
+    box-shadow: inset 8px 8px 8px #006ad5,
+                inset -8px -8px 8px #00a7e4;
+}
+
+.signin-button {
+    box-shadow: 5px 5px 10px #0019a9,
+                -5px -5px 10px #0019a9;
+}
+
+.link a {
+    color:rgb(255, 255, 255);
+
+}
+.link a:hover {
+    color: #00a7e4 ;
+  }
+
+  .form-container form{ 
+
+  background: rgba(255, 255, 255, 0.0);
+box-shadow: 13px 13px 20px  #006ad5,       
+       -13px -13px 20px  #00a7e4;
+}
+#points
+{
+    color: #006eff; 
+}
+
+#points2
+{
+color: #c5c5c5;
+}
+.tab button {
+    background-color: #343d4b;
+    color: rgb(255, 255, 255);
+
+}
+.tabcontent {
+    border: 1px solid #5895ff60;
+
+}
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #7dadff7e;
+  }
+  .tab 
+  {
+    border: 1px solid #5895ff62;
+    background-color: #abcaff29;
+
+  }
+  .tab button.active {
+    background-color: #6ca2ff43;
+  }
+  #costmer
+  {
+    font-family: arabic;
+
+    color: #006eff; 
+
+  }
+
+  .container {
+    background-color: #abcaff8c;
+
+  }
+
+ 
+  .container {
+    background-color: #abcaff29;
+  }
+    
+  input[type=submit]:hover {
+    background-color: #d4e4ff;
+    color: #0b3d91;
+
+    box-shadow: 3px 3px 5px  #006ad5,       
+       -3px -3px 5px  #00a7e4;
+  }
+  input[type=submit] {
+    background-color: #5795ff;
+    color: white;
+  }
+
+
+  
+  input[type=text], select, textarea {
+    border: 1px solid #a4c5ff;
+    background-color: #96bcff3c;
+
+  }
+  #lname{
+    color: #adcbff;
+  }
+  #fname
+  {
+    color: #adcbff;
+  }
+  #subject
+  {
+    color: #adcbff;
+  
+  }
+  footer{
+      color: #a4c5ff;
+  }
+  .ebrahim:hover
+  {
+color: #ff0000;
+
+}
+.site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span {
+    color:  #4187ff;
+}
+.site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span:hover {
+    color: rgb(255, 255, 255); }
+
+    
+ .site-mobile-menu {
+
+    background:  rgb(48, 48, 48);
+
+
+ }
+
+ .site-mobile-menu .site-nav-wrap li .active {
+    color: #ffffff;
+ }
+    .site-mobile-menu .site-nav-wrap a:hover {
+        color:white ;
+        text-decoration: none; }
+
+        .site-mobile-menu .site-nav-wrap a {
+            color: #347fff;
+        }
+
+        .site-mobile-menu .site-nav-wrap .arrow-collapse:hover {
+            background: #ffffff;
+            color:  #347fff;
+         }
+
+         .site-navbar .site-navigation .site-menu .has-children .dropdown.arrow-top:before {
+            border-color: #ffffff;
+            border-bottom-color: #0b3d91;
+        }
+        .site-mobile-menu .site-nav-wrap .arrow-collapse {
+            color:  #347fff;
+        }
+        .site-navbar .site-navigation .site-menu > li > a:hover {
+            color:  #347fff;
+         }
+         .site-navbar .site-navigation .site-menu > li > a {
+            color: #347fff;
+         }
+         .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a {
+            padding: 9px 20px;
+            display: block; 
+            background: #303030;
+            color: #347fff;
+          }
+  
+
+
+/***********pricing table**********/
+.title-h1 {
+
+  color: rgb(255, 255, 255);
+}

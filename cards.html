@@ -7,7 +7,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1256" >
     <meta http-equiv="pragma" content="no-cache" >
     <meta http-equiv="expires" content="19" >
-    <link rel="icon" href="img/logo/logo.png">
+    <link rel="stylesheet" href="light.css">
     <link rel="stylesheet" href="css/style.css">
 
      <!-- login -->
@@ -97,6 +97,7 @@
 
 
 
+  <button class="btndark" onclick="toggleTheme()">🌓</button>
 
 
 
@@ -116,7 +117,7 @@
           <div class="col-sm-12 col-md-12">
             <div class="wpb_text_column wpb_content_element ">
                 <div class="wpb_wrapper">
-                  <div class="title-h1 text-center"><span><span class="light">pricing </span> table</span></div>
+                  <div class="title-h1 text-center"><span><span class="light">اسعار </span> الكروت</span></div>
                 </div>
               </div>
           </div>
@@ -335,10 +336,8 @@
           </div> 
 
 
-
-
        </div>
-      </div>
+</div>
 
 
 
@@ -347,15 +346,41 @@
 
 
 
-      <footer>
-
-        Copyright 2021 &copy; Nasa<img src="img/logo/logo.png" width="20px">Net . All Rights Reserved.<br>
-        Designed by &#64; <a href="https://ebrahimalshaibani.github.io/ebrahim/" > Ebrahim Al-Shaibani</a><br>
 
 
 
-    </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/totopbutton.js"></script>
+    <script src="js/slidshow.js"></script>
+    <script src="js/sellpoints.js"></script>
+
+
+    <script>
+      function toggleTheme() {
+          // Obtains an array of all <link>
+          // elements.
+          // Select your element using indexing.
+          var theme = document.getElementsByTagName('link')[0];
+
+          // Change the value of href attribute 
+          // to change the css sheet.
+          if (theme.getAttribute('href') == 'light.css') {
+              theme.setAttribute('href', 'dark.css');
+          } else {
+              theme.setAttribute('href', 'light.css');
+          }
+      }
+  </script>
+
+  
+
 </body>
+
 
 
 </html>

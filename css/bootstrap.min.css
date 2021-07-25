@@ -56,7 +56,6 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
 }
 
 [tabindex="-1"]:focus {
@@ -373,7 +372,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 1.75rem;
-  color: #0b3d91;
+
 }
 
 h4, .h4 {

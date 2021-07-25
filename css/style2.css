@@ -1,8 +1,6 @@
 body {
-  font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  background-color: #fff;
-  height: 200vh;
-  position: relative; }
+
+}
   body:before {
     content: "";
     position: absolute;
@@ -67,10 +65,11 @@ a {
         position: relative;
         left: auto; } }
     .site-navbar .site-logo a {
-      color: #0b3d91;
       font-size: 1.5rem;
       letter-spacing: .2rem;
-      text-transform: uppercase; }
+      text-transform: uppercase; 
+    }
+
       .site-navbar .site-logo a:hover {
         text-decoration: none; }
   .site-navbar .site-burger-menu, .site-navbar .right-cta-menu {
@@ -109,11 +108,9 @@ a {
         display: inline-block; }
         .site-navbar .site-navigation .site-menu > li > a {
           padding: 20px 20px !important;
-          color: #0b3d91;
           display: inline-block;
           text-decoration: none !important; }
-          .site-navbar .site-navigation .site-menu > li > a:hover {
-            color: #fc3d21; }
+
       .site-navbar .site-navigation .site-menu .has-children {
         position: relative; }
         .site-navbar .site-navigation .site-menu .has-children > a {
@@ -160,8 +157,7 @@ a {
               position: absolute;
               pointer-events: none; }
             .site-navbar .site-navigation .site-menu .has-children .dropdown.arrow-top:before {
-              border-color: #0b3d91;
-              border-bottom-color: #fff;
+
               border-width: 10px;
               margin-left: -10px; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown li {
@@ -174,16 +170,14 @@ a {
             transition: 0s all;
             color: #343a40; }
             .site-navbar .site-navigation .site-menu .has-children .dropdown a.active {
-              background: #ebeef0;
+              background: #0292f2;
               color: #0b3d91; }
           .site-navbar .site-navigation .site-menu .has-children .dropdown > li {
             list-style: none;
             padding: 0;
             margin: 0;
             min-width: 200px; }
-            .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a {
-              padding: 9px 20px;
-              display: block; }
+
               .site-navbar .site-navigation .site-menu .has-children .dropdown > li > a:hover {
                 background:  rgb(213, 213, 213);
                 color: #0b3d91; }
@@ -239,7 +233,7 @@ a {
   right: 0;
   z-index: 2000;
   padding-top: 20px;
-  background:  rgb(213, 213, 213);
+
   height: calc(100vh);
   -webkit-transform: translateX(110%);
   -ms-transform: translateX(110%);
@@ -274,10 +268,8 @@ a {
         -webkit-transition: .3s all ease;
         -o-transition: .3s all ease;
         transition: .3s all ease;
-        color:  #0b3d91;
       }
-        .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span:hover {
-          color: rgb(226, 0, 0); }
+
     .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-logo {
       float: left;
       margin-top: 10px;
@@ -310,16 +302,12 @@ a {
       padding: 10px 20px;
       display: block;
       position: relative;
-      color: #0b3d91;
     }
-      .site-mobile-menu .site-nav-wrap a:hover {
-        color: #fc3d21;;
-        text-decoration: none; }
+
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
-      .site-mobile-menu .site-nav-wrap li .active {
-        color: #2373fd; }
+
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
@@ -330,11 +318,8 @@ a {
       text-align: center;
       cursor: pointer;
       border-radius: 50%;
-      color: #0b3d91;;
      }
-      .site-mobile-menu .site-nav-wrap .arrow-collapse:hover {
-        background: #0b3d91;;
-        color:  rgb(213, 213, 213); }
+
       .site-mobile-menu .site-nav-wrap .arrow-collapse:before {
         font-size: 12px;
         z-index: 20;
@@ -475,13 +460,6 @@ a {
   -webkit-box-shadow: none !important;
   box-shadow: none !important; }
 
-.btn.btn-primary {
-  color: #fff;
-  background: #0b3d91;;
-  border-color: #0b3d91;; }
-  .btn.btn-primary:hover {
-    background: #0b3d91;;
-    border-color: #0b3d91;; }
 
 .btn.btn-outline-white {
   background: transparent;

@@ -6,14 +6,26 @@
     <script src="js/js3.js"></script>
 
 <head>
+
+    
+
+
     <title>NasaNet</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1256" >
     <meta http-equiv="pragma" content="no-cache" >
     <meta http-equiv="expires" content="19" >
-    <link rel="icon" href="img/logo/logo.png">
+
+
+  <!--  <link rel="icon" href="img/logo/logo.png"> -->
+     <!-- dark mode -->
+     <link rel="stylesheet" href="light.css">
+
+
     <link rel="stylesheet" href="css/style.css">
+
+
 
      <!-- login -->
      <link rel="stylesheet" href="css/LOGIN.css">
@@ -24,6 +36,9 @@
      <link rel="stylesheet" href="css/style2.css">
      <!-- cards -->
      <link rel="stylesheet" href="css/tablecss.css">
+
+  
+
 </head>
 <body>
 
@@ -78,20 +93,24 @@
 
             <li><a href="#costmer"> خدمة العملاء</a></li>
             
-            <li class="d-lg-none"><a href="login.html">تسحيل الدخول</a></li>
+            <li class="d-lg-none"><a href="login.html">تسجيل الدخول</a></li>
           </ul>
         </nav>
         
         <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
           <div class="ml-auto">
            
-            <a href="login.html" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-lock_outline"></span>تسحيل الدخول</a>
+            <a href="login.html" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-lock_outline"></span>تسجيل الدخول</a>
           </div>
           <a href="#" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span class="icon-menu h3 m-0 p-0 mt-2"></span></a>
         </div>
       </div>
     </div>
   </header><br><br>
+
+
+  <button class="btndark" onclick="toggleTheme()">🌓</button>
+
 
 
         <!--dust particel-->
@@ -112,7 +131,7 @@
         <div class="sub-title">تسحيل الدخول</div>
 
         <div class="fields">
-            <div class="username"><svg fill="#999" viewBox="0 0 1024 1024"></svg><input type="username" class="user-input" placeholder=" رقم الكرت" /></div>
+            <div class="username"><input type="username" class="user-input" placeholder=" رقم الكرت" /></div>
             </div>
   
             <button type="submit" class="signin-button" name="Submit" value="Enter" onclick='return rem();' ><div style="font-family: arabic;">دخـــــول</div></button>
@@ -131,13 +150,14 @@
     </div>
 
 
-    <h2 id="points" style="font-family: arabic; color: #0b3d91; text-align: center; ">نقاط البيع</h2>
-    <p style="text-align: center;" >من فضلك قم بإختيار منطقتك</p>
+    <h2 id="points">نقاط البيع</h2>
+    <p id="points2" >من فضلك قم بإختيار منطقتك</p>
     
     <div class="tab">
       <button class="tablinks" onmouseover="openCity(event, 'London')">بني شيبة</button>
       <button class="tablinks" onmouseover="openCity(event, 'Paris')">السويقة</button>
       <button class="tablinks" onmouseover="openCity(event, 'Tokyo')">بني محمد</button>
+      <button class="tablinks" onmouseover="openCity(event, 'taiz')"> التربة</button>
     </div>
     
     <div id="London" class="tabcontent">
@@ -152,6 +172,11 @@
     
     <div id="Tokyo" class="tabcontent">
       <h3  style="font-family: arabic;">بني محمد</h3>
+      <p>الاسماء</p>
+    </div>
+
+    <div id="taiz" class="tabcontent">
+      <h3  style="font-family: arabic;">التربة</h3>
       <p>الاسماء</p>
     </div>
     
@@ -177,30 +202,30 @@
 
 <div class="center" >
 
-<h1 id="costmer"  style="font-family: arabic; " >خدمة العملاء</h1>
+<h1 id="costmer" >خدمة العملاء</h1>
 
-<h3  style="font-family: arabic; ">نموذج شكوى</h3>
+<h3  style="font-family: arabic;  ">نموذج شكوى</h3>
 
 <div class="container">
   <form action="/action_page.php">
-    <label for="fname">الأسم</label>
-    <input type="text" id="fname" name="firstname" placeholder="الأسم">
+    <label for="fname" id="lname">الأسم</label>
+    <input type="text" id="lname" name="firstname" placeholder="الأسم">
 
-    <label for="lname">المنطقة</label>
+    <label for="lname" id="lname">المنطقة</label>
     <input type="text" id="lname" name="المنطقة" placeholder="المنطقة">
 
-    <label for="lname">اسم الانتينا او الموديم</label>
+    <label for="lname" id="lname">اسم الانتينا او الموديم</label>
     <input type="text" id="lname" name="المنطقة" placeholder="اسم الانتينا او الموديم">
 
 
-    <label for="subject">شرح المشكلة</label>
-    <textarea id="subject" name="subject" placeholder="اكتب المشكلة هنا " style="height:200px"></textarea>
+    <label for="subject" id="lname">شرح المشكلة</label>
+    <textarea id="lname" name="subject" placeholder="اكتب المشكلة هنا " style="height:200px"></textarea>
 
-    <input type="submit" value="إرسال"><br><br>
+    <input type="submit" value="إرسال"><br>
 
-    <label >أو يمكنك التواصل معنا على الارقام التالية</label><br>
-    <label >713998763 </label><br>
-    <label >711603464 </label>
+    <label id="lname" >أو يمكنك التواصل معنا على الارقام التالية</label><br>
+    <label id="lname">713998763 </label><br>
+    <label id="lname" >711603464 </label>
   </form>
 </div>
 
@@ -218,7 +243,7 @@
     <footer>
 
         Copyright 2021 &copy; Nasa<img src="img/logo/logo.png" width="20px">Net . All Rights Reserved.<br>
-        Designed by &#64; <a href="https://ebrahimalshaibani.github.io/ebrahim/" > Ebrahim Al-Shaibani</a><br>
+        Designed by &#64; <a class="ebrahim" href="https://ebrahimalshaibani.github.io/ebrahim/" > Ebrahim Al-Shaibani</a><br>
 
 
 
@@ -238,6 +263,26 @@
     <script src="js/totopbutton.js"></script>
     <script src="js/slidshow.js"></script>
     <script src="js/sellpoints.js"></script>
+
+
+    <script>
+      function toggleTheme() {
+          // Obtains an array of all <link>
+          // elements.
+          // Select your element using indexing.
+          var theme = document.getElementsByTagName('link')[0];
+
+          // Change the value of href attribute 
+          // to change the css sheet.
+          if (theme.getAttribute('href') == 'light.css') {
+              theme.setAttribute('href', 'dark.css');
+          } else {
+              theme.setAttribute('href', 'light.css');
+          }
+      }
+  </script>
+
+  
 
 </body>
 
